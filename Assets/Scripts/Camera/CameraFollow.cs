@@ -9,7 +9,7 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private ActiveVectors activeVectors;
 
     [SerializeField] private GameObject followTarget;
-    private Vector3 offset;
+    [SerializeField] private Vector3 offset;
     private Vector3 changePos;                              
 
     private void Awake()
