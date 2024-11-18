@@ -8,9 +8,9 @@ public class CameraRotation : MonoBehaviour
     [SerializeField] private GameObject cameraObject;
     [SerializeField] private float rotationSpeed = 0.2f;
     [SerializeField] private float timeToChangeGolfClubPosition;
-    [SerializeField] private Vector3 golfClub1Position;
-    [SerializeField] private Vector3 golfClub2Position;
-    [SerializeField] private Vector3 golfClub3Position;
+     private Vector3 golfClub1Position;
+     private Vector3 golfClub2Position;
+     private Vector3 golfClub3Position;
     public static CameraRotation instance;
 
     private void Awake()
